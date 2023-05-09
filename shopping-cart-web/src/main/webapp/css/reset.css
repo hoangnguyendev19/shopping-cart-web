@@ -1,0 +1,92 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+img, picture, svg, video {
+	display: block;
+	max-width: 100%;
+}
+
+body {
+	min-height: 100vh;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
+.header .menu {
+	color: #ffff;
+	text-transform: uppercase;
+}
+
+.footer>.footer__top {
+	padding: 15px 0;
+	background: black;
+	color: white;
+	border-bottom: 1px solid #ccc;
+}
+
+.footer>.footer__bottom {
+	padding: 15px 0;
+	background: black;
+	color: white;
+	text-align: center;
+	font-size: 13px;
+}
+
+.main {
+	margin-top: 76px;
+}
+
+/* Product Details */
+.img-primary {
+	width: 500px;
+	height: 600px;
+	object-fit: cover;
+	overflow: hidden;
+	cursor: zoom-in;
+	border: 1px solid black;
+}
+
+/* Payment  */
+.rounded {
+	border-radius: 1rem;
+}
+
+.nav-pills .nav-link {
+	color: #555;
+}
+
+.nav-pills .nav-link.active {
+	color: white;
+}
+
+input[type='radio'] {
+	margin-right: 5px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/* User Menu */
+.dropdown {
+	width: 50px;
+}
+
+.dropdown-toggle::after {
+	position: absolute;
+	right: 0;
+	top: 50%;
+}
