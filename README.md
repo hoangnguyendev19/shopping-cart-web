@@ -1,10 +1,11 @@
-### Shopping Cart Website
+# Shopping Cart Websites
 
-### This is a web application that allows fashion girls to browse and purchase clothing and accessories from an online store. The application is built using Java, Servlet/JSP, JDBC, and MySQL database.
+## Description
+This is a web application that allows fashion girls to browse and purchase clothing and accessories from an online store. The application is built using Java, Servlet/JSP, JDBC, and MySQL database.
 
-### Features
+## Features
 
-###  User Pages
+####  User Pages
 
 - User authentication and registration
 - User can view their profile and update their information
@@ -16,13 +17,13 @@
 - User can pay for orders
 - User can logout
 
-### Admin Pages
+#### Admin Pages
 
 - Admin authentication and registration
 - Admin can add/delete/edit/show products, users, and orders of users
 - Admin can logout
 
-### Technologies Used
+## Technologies Used
 
 - Java 11
 - Servlet/JSP
